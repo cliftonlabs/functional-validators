@@ -1,8 +1,8 @@
 {
-  "name": "functional-validation",
+  "name": "functional-validators",
   "version": "0.1.0",
   "description": "Functional validators and tools to compose them",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "NODE_ENV=test node_modules/.bin/mocha --opts mocha.opts 'src/**/*.spec.js*'",
     "test:watch": "NODE_ENV=test node_modules/.bin/mocha --opts mocha.opts --watch 'src/**/*.spec.js*'",
